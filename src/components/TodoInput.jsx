@@ -23,7 +23,9 @@ function TodoInput({ onAdd }) {
         placeholder="nouvelle tâche..."
       />
 
-      <button type="submit">Add</button>
+      <button type="submit" disabled={text.trim().length === 0}>
+        Add
+      </button>
     </form>
   );
 }
