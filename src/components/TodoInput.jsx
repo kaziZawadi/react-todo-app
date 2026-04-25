@@ -16,7 +16,7 @@ function TodoInput({ onAdd }) {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} style={{ marginBottom: "15px" }}>
       <input
         value={text}
         onChange={(e) => setText(e.target.value)}
