@@ -28,10 +28,8 @@ npm install
 npm run dev
 ```
 
-```md
 Puis ouvrir : http://localhost:5173
 
 ## 📸 Aperçu
 
 ![Aperçu de l'application](./screenshot.png)
-```
